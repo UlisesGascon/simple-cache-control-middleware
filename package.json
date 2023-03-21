@@ -1,0 +1,29 @@
+{
+  "name": "simple-cache-control-middleware",
+  "version": "1.0.0",
+  "description": "A very simple cache control middleware for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/simple-cache-control-middleware.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "express-middleware",
+    "cache",
+    "cache-control"
+  ],
+  "author": "Ulises Gascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/simple-cache-control-middleware/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/simple-cache-control-middleware#readme"
+}
