@@ -37,7 +37,6 @@
   "homepage": "https://github.com/UlisesGascon/simple-cache-control-middleware#readme",
   "devDependencies": {
     "jest": "29.5.0",
-    "jest-config": "29.5.0",
     "standard": "17.0.0"
   },
   "dependencies": {
