@@ -2,13 +2,22 @@
   "name": "simple-cache-control-middleware",
   "version": "1.0.0",
   "description": "A very simple cache control middleware for express",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "jest --detectOpenHandles --forceExit  --verbose",
+    "test:coverage": "jest --detectOpenHandles --forceExit --verbose --coverage",
+    "test:watch": "jest --detectOpenHandles --forceExit --verbose --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UlisesGascon/simple-cache-control-middleware.git"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "engines": {
     "node": ">=14.0.0"
@@ -25,5 +34,13 @@
   "bugs": {
     "url": "https://github.com/UlisesGascon/simple-cache-control-middleware/issues"
   },
-  "homepage": "https://github.com/UlisesGascon/simple-cache-control-middleware#readme"
+  "homepage": "https://github.com/UlisesGascon/simple-cache-control-middleware#readme",
+  "devDependencies": {
+    "jest": "29.5.0",
+    "jest-config": "29.5.0",
+    "standard": "17.0.0"
+  },
+  "dependencies": {
+    "debug": "4.3.4"
+  }
 }
