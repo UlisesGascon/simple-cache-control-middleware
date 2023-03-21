@@ -101,4 +101,5 @@ This project is licensed under the GNU AGPL3.0 License - see the [LICENSE.md](LI
 
 ## Acknowledgments
 
-- This project is under development, but you can help us to improve it! We :heart: FOSS!
+Heavily inspired in [RegBrain | Cache headers in Express js app
+](https://regbrain.com/article/cache-headers-express-js) post
